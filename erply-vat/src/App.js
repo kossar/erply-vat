@@ -135,6 +135,7 @@ class App extends Component {
                                     address={ this.state.obj.Address }
                                     empty={ this.state.message } 
                                 /> 
+                                
                             : <NoResult vatNr={ fullVat }
                                         number={ this.state.obj.CountryCode } 
                                         value={ this.state.inputValue }
